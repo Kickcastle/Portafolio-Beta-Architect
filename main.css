@@ -1,0 +1,280 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-example2 {
+    position: fixed;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c53648f, #203a438f, #0f20278a), url("https://3dsvq.es/wp-content/uploads/2018/06/3DSVQ.es_espedies_de_espacios_proyecto_arquitectura_seccion.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    margin-bottom: 200px;
+}
+.col-3 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: tahoma;
+}
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Gallery -------------------------------------------------------------*/
+#section {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#fat {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+#fat2 {
+    text-align: right;
+    font-size: 60px;
+    font-family: impact;
+    margin-bottom: 100px;
+}
+#mdo2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: Impact;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#mdo2 {
+    height: 80px;
+    width: 100%;
+     background-color: white;
+ }
+
+#mdo h4 {
+    position: absolute;
+}
+
+#img1 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#img1 img {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.t-p {
+    font-family: impact;
+    font-size: 45px;
+    color: rgb(88, 88, 90);
+}
+#img1 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(128, 128, 128, 0.185);
+    border-radius: 5px;
+    width: 450px;
+    height: 250px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 100px;
+    
+}
+
+.imagenDeMierda {
+    display: flex;
+    justify-content: center;
+    min-width: 350px;
+    height: auto;
+}
+
+#img3 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#img3 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+    border-radius: 5px;
+    width: 35%;
+    height: auto;
+    padding: 15px;
+    margin-right: 10px;
+    margin-top: 100px;
+    
+}
+#img3 img {
+    text-align: right;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 28% 100%);
+}
+
+
+/* Space for projects----------------------------------------------------------------- */
+
+#collage {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#img-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+    margin-right: 3px;
+}
+#img-1 img{
+    transition: 0.3s;
+}
+#img-1 :hover {
+    transform: scale(1.04);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#img-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+    margin-right: 5px;
+}
+#img-2 img{
+    transition: 0.3s;
+}
+#img-2 :hover {
+    transform: scale(1.04);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#img-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+    margin-right: 5px;
+}
+#img-3 img{
+    transition: 0.3s;
+}
+#img-3 :hover {
+    transform: scale(1.04);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#img-4 {
+    padding: 3px;
+}
+#img-4 img{
+    transition: 0.3s;
+}
+#img-4 :hover {
+    transform: scale(1.04);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.texto {
+    border: 1px solid rgba(128, 128, 128, 0.185);
+    color: rgba(56, 56, 56, 0.747);
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: arial;
+    padding: 10px;
+    /* height: 300px; */
+    margin: 25px;
+    width: 75%;
+}
+.container-txt {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+/* Contact--------------------------------------------------------------- */
+
+
+#one {
+    /* text-align: center; */
+    font-size: 60px;
+    font-family: impact;
+    margin-bottom: 80px;
+    margin-top: 100px;
+ 
+}
+#one2 {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 50%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#fname {
+    width: 30%;
+}
+#lname {
+    width: 30%;
+}
+#subject {
+    width: 40%;
+}
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    color: black;
+    padding: 12px 20px;
+    border: solid 1px rgb(136, 136, 252);
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    width: 20%;
+    margin-top: 10px;
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    border: solid 1px rgb(42, 42, 248);
+}
+  
+  /* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+  
+
+/* Footer ------------------------------------------------------------*/
+
+#BarFooter {
+    width: 100%;
+    height: 150px;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
