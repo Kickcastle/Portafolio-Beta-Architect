@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #navbar-example2 {
@@ -18,11 +19,14 @@
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2c53648f, #203a438f, #0f20278a), url("https://3dsvq.es/wp-content/uploads/2018/06/3DSVQ.es_espedies_de_espacios_proyecto_arquitectura_seccion.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment:fixed ;
     background-size: cover;
     margin-bottom: 200px;
 }
 .col-3 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    
     color: white;
     font-size: 80px;
     font-family: tahoma;
@@ -35,8 +39,13 @@
 
 /* Gallery -------------------------------------------------------------*/
 #section {
-    padding-left: 100px;
-    padding-right: 100px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    padding: 60px 0;
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
 }
 #fat {
     height: 80px;
@@ -76,7 +85,7 @@
 }
 .t-p {
     font-family: impact;
-    font-size: 45px;
+    font-size: 3vw;
     color: rgb(88, 88, 90);
 }
 #img1 p {
@@ -85,18 +94,23 @@
     justify-content: center;
     border: 1px solid rgba(128, 128, 128, 0.185);
     border-radius: 5px;
-    width: 450px;
-    height: 250px;
+    width: 30vw;
+    height: auto;
     padding: 15px;
     margin-left: 10px;
     margin-top: 100px;
+    font-size: 1.2vw;
     
 }
 
-.imagenDeMierda {
+.imageStatic {
     display: flex;
     justify-content: center;
-    min-width: 350px;
+    width: 100%;
+    height: auto;
+}
+.imageStatic img {
+    min-width: 400px;
     height: auto;
 }
 
@@ -112,12 +126,12 @@
     justify-content: center;
     border: 1px solid rgba(128, 128, 128, 0.178);
     border-radius: 5px;
-    width: 35%;
+    width: 30vw;
     height: auto;
     padding: 15px;
     margin-right: 10px;
     margin-top: 100px;
-    
+    font-size: 1vw;
 }
 #img3 img {
     text-align: right;
@@ -194,10 +208,9 @@
     border: 1px solid rgba(128, 128, 128, 0.185);
     color: rgba(56, 56, 56, 0.747);
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: arial;
     padding: 10px;
-    /* height: 300px; */
     margin: 25px;
     width: 75%;
 }
@@ -210,7 +223,10 @@
 
 /* Contact--------------------------------------------------------------- */
 
+.container-contact {
+    min-width: 400px;
 
+}
 #one {
     /* text-align: center; */
     font-size: 60px;
@@ -275,6 +291,6 @@ input[type=submit]:hover {
     width: 100%;
     height: 150px;
     background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
