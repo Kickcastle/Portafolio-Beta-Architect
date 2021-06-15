@@ -9,20 +9,34 @@
     position: fixed;
     width: 100%;
 }
+.banner {
+    height: 500px;
+    width: 100%;
+    background-color:lightblue ;
+    display: flex;
+    color: rgba(255, 255, 255, 0.651);
+    justify-content: center;
+    align-items: center;
+    font-family: impact;
+}
+.banner h4 {
+    font-size: 100px;
+}
 .row {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    /* align-items: center;
-    justify-content: center; */
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-family: impact;
     width: 100%;
-    height: 700px;
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    height: 300px;
     background: linear-gradient(to right, #2c53648f, #203a438f, #0f20278a), url("https://3dsvq.es/wp-content/uploads/2018/06/3DSVQ.es_espedies_de_espacios_proyecto_arquitectura_seccion.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-attachment: fixed ;
+    background-attachment: fixed;
     background-size: cover;
     margin-bottom: 200px;
+}
+.row h4 {
+    font-size: 100px;
 }
 .col-3 {
     display: flex;
@@ -32,12 +46,20 @@
     font-family: tahoma;
 }
 .wave {
-    position: absolute;
+    position: block;
     width: 100%;
-    /* bottom: 0;     */
+    margin: 0;
+    padding: 0;   
 }
 
+#section {
+    margin: 0;
+    padding: 0;
+}
 /* Gallery -------------------------------------------------------------*/
+.img-fluid {
+    position:block ;
+}
 #section {
     /* padding-left: 100px;
     padding-right: 100px; */
@@ -133,6 +155,7 @@ p {
     /* width: 100%; */
     height: auto;
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 #img3 p {
     display: flex;
